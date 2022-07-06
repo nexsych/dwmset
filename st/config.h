@@ -97,7 +97,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
-#include "/home/nexsych/.cache/wal/colors-wal-st.h"
+#include "/home/nexsych/.config/wal/colors-wal-st.h"
 /*
  * Default shape of cursor
  * 2: Block ("█")
@@ -105,7 +105,7 @@ float alpha = 0.85;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
